@@ -1,0 +1,30 @@
+{
+  /*"baseBranches": [
+    "dev",
+    "main"
+  ],*/
+"osvVulnerabilityAlerts": true,
+  "lockFileMaintenance": { "enabled": true },
+ /* "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor"
+      ],
+      "groupName": "all minor dependencies"
+    }
+   {
+      "matchDatasources": [
+        "npm"
+      ],
+      "registryUrls": [
+        "https://index.docker.io"
+      ]
+    }
+  ],*/
+  "dependencyDashboard": true,
+  "osvVulnerabilityAlerts": true,
+  "dependencyDashboardOSVVulnerabilitySummary": 'all',
+}
